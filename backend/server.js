@@ -1,3 +1,5 @@
+// For Production:
+
 import express from 'express'
 import cors from 'cors'
 import 'dotenv/config'
@@ -29,3 +31,5 @@ app.get('/',(req,res)=>{
 })
 
 app.listen(port, ()=> console.log('Server started on PORT : '+ port))
+
+
