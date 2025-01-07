@@ -3,4 +3,4 @@
   publish = "functions"
 
 [functions]
-  directory = "functions"
+  directory = "backend"
